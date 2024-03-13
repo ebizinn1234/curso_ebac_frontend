@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="portfolio-container">
+        <ul class="navlist">
+            <li><a href="#" class="ativar">Home</a></li>
+            <li><a href="#form" class="contato">Contato</a></li>
+            <li><a href="#">Experiência</a></li>
+        </ul>
+        <div class="left-container">
+            <div class="icons">
+                <a href="https://t.me/onionvips" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://spotify.com" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="content">
+                <p class="intro">Olá! eu sou <span>Éber</span></p>
+                <h1>Web Developer!</h1>
+                <p class="detalhe">Desenvolvedor Frontend em constante evolução, especializado em HTML, CSS, JS. Adotei o Sass para estilos mais eficientes e estou explorando o Vue.js e React para interfaces dinâmicas.</p>
+                <div class="btn-container">
+                   <a href="#form"> <button>Contrate-me</button></a>
+                    <button>Projetos</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-container"></div>
+        <div class="desing">
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+    </div>
+
+    <!-- Seção para o formulário -->
+    <div class="formulario-section">
+        <div class="formulario" id="form">
+            
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                <label for="tel"> Telefone:</label>
+                <input type="tel" id="tel" name="tel"  placeholder="Seu Telefone" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <footer>
+            <p class="text">criado com&nbsp;
+                <i class="fa-solid fa-heart"></i>&nbsp;por Éber Developer</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
